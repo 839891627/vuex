@@ -4,7 +4,7 @@ import * as actions from './actions'
 import * as getters from './getters'
 import cart from './modules/cart'
 import products from './modules/products'
-import createLogger from '../utilities/logger'
+import createLogger from 'vuex/dist/logger'
 
 Vue.use(Vuex)
 
